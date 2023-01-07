@@ -1,0 +1,39 @@
+{
+  "name": "arvis0011-v14-genel-moderasyon-botu",
+  "version": "1.0.0",
+  "description": "arvis0011-v14-genel-moderasyon-botu",
+  "main": "arvis.js",
+
+  "scripts": {
+    "arvis:dev": "nodemon arvis.js",
+    "arvstest": "node arvis.js"
+  },
+
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArviSlayer/Arvilleous-V14-Moderasyon.git"
+  },
+
+  "author": "ArviS#0011",
+  "license": "MIT",
+
+  "bugs": {
+    "url": "https://github.com/ArviSlayer/Arvilleous-V14-Moderasyon/issues"
+  },
+
+  "homepage": "https://github.com/ArviSlayer/Arvilleous-V14-Moderasyon#readme",
+"dependencies": {
+    "@discordjs/builders": "^1.1.0",
+    "ascii-table": "^0.0.9",
+    "discord-html-transcripts": "^3.1.2",
+    "discord-logs": "^2.2.1",
+    "discord.js": "^14.7.1",
+    "fs": "^0.0.1-security",
+    "moment": "^2.29.4",
+    "moment-duration-format": "^2.3.2",
+    "mongoose": "^6.5.4",
+    "ms": "^2.1.3",
+    "node-fetch": "^3.2.10",
+    "nodemon": "^2.0.20"
+  }
+}
